@@ -1,9 +1,12 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.1
-##   Github 	: 	https://github.com/htr-tech
+##   SuperPhish	: 	Automated Phishing Tool
+##   Author 	: 	S.U. PATHAN 
+##   Version 	: 	1.0
+##   Github 	: 	https://github.com/superastra
+##   Gmail	:	contact.with.super@gmail.com
+
+##  COPY FROM	:	ZPHISHER
 
 ##   THANKS TO :
 ##   Aditya Shakya - https://github.com/adi1090x
@@ -145,15 +148,16 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.1
+		${ORANGE}     __________    __        __  _______       ________
+		${ORANGE}    |  ________|  |  |      |  | |  |   \ \  |  _______|
+		${ORANGE}    |  |          |  |      |  | |  |   | |  |  |
+		${ORANGE}    |  |________  |  |      |  | |  |__/ /   |  |______
+		${ORANGE}    |_________  | |  |      |  | |   ___/    |   _____|
+		${ORANGE}              | | |  |      |  | |  |        |  |
+		${ORANGE}     _________| | |  |______|  | |  |        |  |______  |
+		${ORANGE}    |___________| |____________| |__|        |_________| |__|
+		${ORANGE}                       
+${RED}Version : 2.1
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
@@ -162,10 +166,8 @@ banner() {
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.1
+		${BLUE} 𝙎𝙪𝙥𝙚𝙧𝙋𝙝𝙞𝙨𝙝
+		
 	EOF
 }
 
@@ -251,7 +253,7 @@ install_ngrok() {
 ## Exit message
 msg_exit() {
 	{ clear; banner; echo; }
-	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
+	echo -e "${GREENBG}${BLACK} Thank you for using SuperPhish. Have a good day.${RESETBG}\n"
 	{ reset_color; exit 0; }
 }
 
@@ -259,10 +261,9 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
-		${GREEN}Version  ${RED}:  ${ORANGE}2.1
+		${GREEN}Author   ${RED}:  ${ORANGE}S.U. PATHAN ${RED}[ ${ORANGE}SUPER ASTRA ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/superastra
+		${GREEN}Version  ${RED}:  ${ORANGE}1.0
 
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
 								  DarkSecDevelopers,Mustakim Ahmed ${RESETBG}
